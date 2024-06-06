@@ -1,11 +1,49 @@
-<html>
-    <h1>
-        AnimeGeek
-    </h1>
-    <body>
-        <h2>About AnimeGeek</h2>
-        <p>
-            Hello! This is AnimeGeek, offering free anime, movies, and shows! Enjoy! Also, sorry for the ads and pop-ups they help us make money to keep this website going!
-        </p>
-    </body>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeGeek - Free Anime Streaming</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file for styling -->
+</head>
+<body>
+    <header>
+        <h1>AnimeGeek</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#browse">Browse</a></li>
+                <li><a href="#account">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to AnimeGeek!</h2>
+            <p>Stream your favorite anime for free, anytime, anywhere!</p>
+            <a href="#browse">Start Watching</a>
+        </section>
+
+        <section id="browse">
+            <h2>Browse Anime</h2>
+            <form>
+                <input type="text" placeholder="Search anime...">
+                <button type="submit">Search</button>
+                <select>
+                    <option value="">All Genres</option>
+                    <option value="action">Action</option>
+                    <option value="comedy">Comedy</option>
+                    <option value="drama">Drama</option>
+                    <!-- Add more genre options as needed -->
+                </select>
+            </form>
+            <!-- Anime listings will go here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AnimeGeek. All rights reserved.</p>
+    </footer>
+</body>
+</html>
